@@ -1,5 +1,5 @@
 # Call Centre Trends Using PowerBI
-Analysis of Call Centre Trends (A PWC Virtual Internship Project)- _Notebook By Jessica Addy_
+Analysis of Call Centre Trends (A PWC Virtual Internship Project)- By Jessica Addy_
 
 # Introduction
 PhoneNow, a fictitious call center, seeks openness and insight into the information gathered. They want to know how many calls were answered and how many were abandoned, as well as the speed with which they were responded, the duration of the calls, and overall customer satisfaction. They also want a dashboard with an accurate picture of long-term trends in consumer and agent behavior
