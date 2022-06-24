@@ -35,6 +35,7 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
         
     • An column (Hour) was created from time column to help us analyze time-based calls. 
   
+  ![Screenshot 2022-06-24 081443](https://user-images.githubusercontent.com/107724453/175509188-6d82a9d6-d023-421b-b23f-05b19490757c.png)
   
  # 4. Data Visualization
  
