@@ -26,12 +26,12 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
 
   # 3. Data Cleaning
   Data cleaning was done in Power Query. 
-    • The "Y" and "N" values for both Answered and Recovered Column was replaced with Yes  and No respectively to communicate clearly what the data represents.
+    • To make the meaning of the data more obvious, the "Y" and "N" values for the Answered and Recovered Columns were changed to Yes and No, respectively.
 
-    • New Colums were added to the data to extract the Weekday and Week Number from the Date. These formulas were used:
-        Week day = FORMAT(Sheet1[Date],"dddd")
-        WeekDay = WEEKDAY(Sheet1[Date],2)
-    The purpose if this is to help me analyze the number of incoming calls during the week and make deductions on which days recorded the most and least number of calls. The Week Number helped me clearly custom sort my weeks days to represent Monday as the first day of the weeks and Sunday as the last
+• To extract the Weekday and Week Number from the Date, new columns were added to the data. These equations were employed:
+  WeekDay = FORMAT (Sheet1[Date],"dddd")
+  WeekDay Number = WEEKDAY (Sheet1[Date],2)
+  This will aid in my analysis of the number of incoming calls received each day of the week so that I can determine which days had the most and fewest calls received. The Week Number made it easy for me to properly categorize my weeks' days such that Monday would be the first weekday and Sunday would be the last.
         
     • An column (Hour) was created from time column to help us analyze time-based calls. 
   
