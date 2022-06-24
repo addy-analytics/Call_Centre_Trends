@@ -14,11 +14,11 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
  # 1. Project Objectives
   The project seeks to identify
   
-    •	Customer satisfaction in general
-    •	Overall, how many calls were answered/abandoned
-    •	Time-based calls
-    •	Average call response time
-    •	Average handling time (talk duration) versus calls answered -> agent performance quadrant
+    •Customer satisfaction in general
+    •Overall, how many calls were answered/abandoned
+    •Time-based calls
+    •Average call response time
+    •Average handling time (talk duration) versus calls answered -> agent performance quadrant
     
 
   # 2. Data Sourcing
