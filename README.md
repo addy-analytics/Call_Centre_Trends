@@ -45,12 +45,29 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
  
  # 5. Findings and Recommendations
  
- 
- 
- 
-  
+   PhoneNow recorded a total of 5000 inbound calls for the months and year under consideration (January–March 2021). All of our agents answered 81.1% of incoming calls, with Jim taking the majority of them. Every call that was received included complaints that were detailed and connected to different subjects, with a greater population being worried about streaming services. All concerns were resolved in 73.9% of cases. Jim made sure that the 485 incoming calls were answered.
+   
+   I also observed that the call center records the maximum number of phone calls throughout the workday at 5:00 pm, totaling 11.66 %, and the least at 6:00 pm, totaling 0.28 %. But we also see that the peak time for incoming calls is 5:00 pm on Mondays. The majority of these inbound calls occurred in March.
+
+Prior to speaking with an agent, a consumer typically waits 67.52 seconds (1 minute and 8 seconds) on the phone. On a scale from 1 to 5, the standard of our services was rated as well, with an overall business grade of 3.40. Individually, Joe had a score of 3.3, while Martha received a 3.47.
+
+Recommendation: 
+  1. The agents and entire staff need to come to an understanding of what makes good customer experience
+  2. Gain an understaning of system components, how and whom to contact so that they can be resolved
+  3. Maintain the average reponse time to calls at 60-90seconds
+  4. Create systems that generate particualar customer experience.
 
 
+#Thank you for taking time to read my Call Centre Analysis
+
+[Interact with me here]
+(https://twitter.com/addy_xls)
+
+
+   
+ 
+ 
+ 
 
 
   
