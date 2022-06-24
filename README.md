@@ -13,6 +13,7 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
   
  # 1. Project Objectives
   The project seeks to identify
+  
     •	Customer satisfaction in general
     •	Overall, how many calls were answered/abandoned
     •	Time-based calls
@@ -28,13 +29,13 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
   Data cleaning was done in Power Query. 
     • To make the meaning of the data more obvious, the "Y" and "N" values for the Answered and Recovered Columns were changed to Yes and No, respectively.
 
-• To extract the Weekday and Week Number from the Date, new columns were added to the data. These equations were employed:
-  WeekDay = FORMAT (Sheet1[Date],"dddd")
-  WeekDay Number = WEEKDAY (Sheet1[Date],2)
-  This will aid in my analysis of the number of incoming calls received each day of the week so that I can determine which days had the most and fewest calls received. The Week Number made it easy for me to properly categorize my weeks' days such that Monday would be the first weekday and Sunday would be the last.
-        
+    • To extract the Weekday and Week Number from the Date, new columns were added to the data. These equations were employed:
+      WeekDay = FORMAT (Sheet1[Date],"dddd")
+      WeekDay Number = WEEKDAY (Sheet1[Date],2)
+      This will aid in my analysis of the number of incoming calls received each day of the week so that I can determine which days had the most and fewest calls received. The Week Number made it easy for me to properly categorize my weeks' days such that Monday would be the first weekday and Sunday would be the last.
+
     • An column (Hour) was created from time column to help us analyze time-based calls. 
-  
+
   ![Screenshot 2022-06-24 081443](https://user-images.githubusercontent.com/107724453/175509188-6d82a9d6-d023-421b-b23f-05b19490757c.png)
   
  # 4. Data Visualization
