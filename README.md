@@ -25,6 +25,8 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
   
  --------------------
   # 3. Data Cleaning
+  Data cleaning was done in Power Query. The "Y" and "N" values for both Answered and Recovered Column was replaced with Yes  and No respectively to communicate clearly what the data represents.
+  New Colums were added to the data to extract the Weekday and Week Number from the Date. The purpose if this is to help me analyze the number of incoming calls during the week and make deductions on which days recorded the most and least number of calls. 
   
   
  --------------------
@@ -35,5 +37,9 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
  
  
   
+
+
+
+My Data Community Placeholder Website
   
   
