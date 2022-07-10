@@ -54,7 +54,7 @@ Prior to speaking with an agent, a consumer typically waits 67.52 seconds (1 min
 Recommendation: 
   1. The agents and entire staff need to come to an understanding of what makes good customer experience
   2. Gain an understaning of system components, how and whom to contact so that they can be resolved
-  3. Maintain the average reponse time to calls at 60-90seconds
+  3. Maintain the average reponse time to calls at 60-90seconds.
   4. Create systems that generate particualar customer experience.
 
 
