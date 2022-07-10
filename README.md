@@ -60,8 +60,7 @@ Recommendation:
 
 #Thank you for taking time to read my Call Centre Analysis
 
-[Interact with me here]
-(https://twitter.com/addy_xls)
+[Interact with me here](https://twitter.com/addy_xls)
 
 
    
