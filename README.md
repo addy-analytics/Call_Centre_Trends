@@ -8,6 +8,7 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
   1.  Project Objectives: Problem Statement
   2.  Data Sourcing
   3.  Data Cleaning
+  4.  Dax Formulas and Data Visualization
   4.  Findings and Recommendations
   
   
@@ -38,7 +39,21 @@ PhoneNow, a fictitious call center, seeks openness and insight into the informat
 
   ![Screenshot 2022-06-24 081443](https://user-images.githubusercontent.com/107724453/175509188-6d82a9d6-d023-421b-b23f-05b19490757c.png)
   
- # 4. Data Visualization
+ # 4. DAX Functions and Data Visualization
+ 
+ ## DAX Functions 
+ These functions were applied to arrive at the data visualizations
+     • Answered Calls = CALCULATE([Total Incoming calls], Sheet1[Answered (Y/N)]="Yes")
+     •Unanswered Calls = CALCULATE([Total Incoming calls], Sheet1[Answered (Y/N)]="No")
+     •Average SpeedTime = average(Sheet1[Speed of answer in seconds])
+     •Average Time = AVERAGE(Sheet1[AvgTalkDuration])
+     •ATD (Average Talk Duration) = format(AVERAGE(Sheet1[AvgTalkDuration]),"HH:MM:SS")
+     •Averge CSAT Score = AVERAGE(Sheet1[Satisfaction rating])
+     •Total Incoming calls = DISTINCTCOUNT(Sheet1[Call Id])
+     •Unresolved = CALCULATE([Total Incoming calls], Sheet1[Resolved]="No")
+     •Resolved = CALCULATE([Total Incoming calls], Sheet1[Resolved]="Yes")
+ 
+ ## Dashboard
 ![CALL_CENTRER_TRENDS-1](https://user-images.githubusercontent.com/107724453/177151278-ac4eb41b-d290-4ec7-a652-abc184998779.png)
 
 [Interact With Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNDcyNTM5MTQtNGU3ZS00Njk0LWFkMWMtNGJjYWNjNTMwMDZkIiwidCI6ImU1MjBlNjgwLTk2OGMtNGM5Ny1hNjQ4LTc3ZjZmNmQ4MTA5ZiJ9)
